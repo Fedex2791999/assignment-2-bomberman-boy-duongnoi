@@ -1,0 +1,508 @@
+02:04:24.864 [JavaFX Application Thread] DEBUG GameApplication      - Logger initialized
+02:04:24.870 [JavaFX Application Thread] DEBUG MainWindow           - Creating a JavaFX scene
+02:04:24.987 [JavaFX Application Thread] DEBUG MainWindow           - Target settings size: 1240.0 x 520.0
+02:04:24.988 [JavaFX Application Thread] DEBUG MainWindow           - Scaled scene size:    1240.0 x 520.0
+02:04:24.988 [JavaFX Application Thread] DEBUG MainWindow           - Scaled ratio: (1.0, 1.0)
+02:04:24.995 [JavaFX Application Thread] DEBUG GameApplication      - Starting FXGL
+02:04:24.999 [JavaFX Application Thread] INFO  FXGL                 - FXGL-0.5.3-SNAPSHOT on DESKTOP
+02:04:25.000 [JavaFX Application Thread] INFO  FXGL                 - Source code and latest versions at: https://github.com/AlmasB/FXGL
+02:04:25.000 [JavaFX Application Thread] INFO  FXGL                 -              Join the FXGL chat at: https://gitter.im/AlmasB/FXGL
+02:04:25.010 [JavaFX Application Thread] DEBUG FS                   - Loaded DesktopFSService
+02:04:25.010 [JavaFX Application Thread] DEBUG FXGL                 - Loading FXGL system data
+02:04:25.021 [JavaFX Application Thread] DEBUG DesktopFSService     - Reading from: system\fxgl.bundle
+02:04:25.032 [JavaFX Application Thread] DEBUG Bundle               - Logging bundle: FXGL
+02:04:25.033 [JavaFX Application Thread] DEBUG Bundle               - FXGL.offline.timer.version.check=2018-12-04T00:13:10.649
+02:04:25.073 [JavaFX Application Thread] DEBUG GameApplication      - FXGL started
+02:04:25.073 [JavaFX Application Thread] DEBUG GameApplication      - Logging game settings
+Title: Bomberman
+Version: 1.0
+Width: 1240
+Height: 520
+Fullscreen: false
+Intro: false
+Menus: false
+Profiling: false
+Single step:false
+App Mode: DEVELOPER
+Menu Key: ESCAPE
+Stage Style: DECORATED
+Scene Factory: class com.almasb.fxgl.scene.SceneFactory
+Dialog Factory: class com.almasb.fxgl.ui.FXGLDialogFactory
+UI Factory: class com.almasb.fxgl.ui.FXGLUIFactory
+Notification Service: class com.almasb.fxgl.gameplay.notification.XboxNotificationView
+Exception Handler: class com.almasb.fxgl.app.FXGLExceptionHandler
+02:04:25.075 [JavaFX Application Thread] DEBUG GameApplication      - Configuring GameApplication
+02:04:25.075 [JavaFX Application Thread] DEBUG GameApplication      - Initializing state machine and application states
+02:04:25.092 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+02:04:25.115 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+02:04:25.140 [JavaFX Application Thread] DEBUG FXGLAssets           - Loading FXGLAssets
+02:04:25.177 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/fonts/VarelaRound-Regular.ttf
+02:04:25.358 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/fonts/lucida_console.ttf
+02:04:25.401 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/fonts/Courier-Prime.ttf
+02:04:25.416 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/fonts/Abel-Regular.ttf
+02:04:25.428 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/css/fxgl_dark.css
+02:04:25.490 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+02:04:25.571 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+02:04:25.601 [JavaFX Application Thread] DEBUG GameScene            - Game scene initialized: 1240x520
+02:04:25.607 [JavaFX Application Thread] DEBUG GameWorld            - Game world initialized
+02:04:25.698 [JavaFX Application Thread] DEBUG PhysicsWorld         - Physics world initialized: appHeight=520, physics.ppm=50.0
+02:04:25.753 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Pause - Esc
+02:04:25.791 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+02:04:25.863 [JavaFX Application Thread] DEBUG AppStateMachine      - StartupState -> StartupState
+02:04:25.875 [JavaFX Application Thread] INFO  GameApplication      - Game configuration took:  0.800 sec
+02:04:25.879 [JavaFX Application Thread] DEBUG AssetLoader          - Loading from disk: /assets/textures/icon (1).png
+02:04:25.889 [JavaFX Application Thread] DEBUG MainWindow           - Opening main window
+02:04:26.109 [JavaFX Application Thread] DEBUG MainWindow           - Window border size: (4.0, 26.66668701171875)
+02:04:26.109 [JavaFX Application Thread] DEBUG MainWindow           - Scaled size: 1240.0 x 520.0
+02:04:26.110 [JavaFX Application Thread] DEBUG MainWindow           - Scaled ratio: (1.0, 1.0)
+02:04:26.110 [JavaFX Application Thread] DEBUG MainWindow           - Scene size: 1240.0 x 520.0
+02:04:26.110 [JavaFX Application Thread] DEBUG MainWindow           - Stage size: 1244.0 x 546.6666870117188
+02:04:26.110 [JavaFX Application Thread] DEBUG GameApplication      - Running preInit()
+02:04:26.112 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Screenshot - P
+02:04:26.113 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Dev Options - CTRL+0
+02:04:26.114 [JavaFX Application Thread] DEBUG Input                - Registered new binding: System info dump - CTRL+9
+02:04:26.115 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Restart - CTRL+R
+02:04:26.115 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Move Up - Up
+02:04:26.115 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Move Left - Left
+02:04:26.115 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Move Down - Down
+02:04:26.115 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Move Right - Right
+02:04:26.116 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Place Bomb - Space
+02:04:26.212 [JavaFX Application Thread] DEBUG AudioPlayer          - Playing music com.almasb.fxgl.audio.Music@399b1bfb
+02:04:26.254 [JavaFX Application Thread] DEBUG GameApplication      - Starting main loop
+02:04:26.255 [JavaFX Application Thread] DEBUG StartupState         - STARTUP
+02:04:26.256 [JavaFX Application Thread] DEBUG GameApplication      - Starting new game
+02:04:26.256 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+02:04:26.266 [JavaFX Application Thread] DEBUG AppStateMachine      - StartupState -> LoadingState
+02:04:26.276 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Clearing previous game
+02:04:26.276 [FXGL Background Thread 1 ] DEBUG GameWorld            - Clearing game world
+02:04:26.286 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Clearing physics world
+02:04:26.286 [FXGL Background Thread 1 ] DEBUG GameScene            - Clearing game scene
+02:04:26.288 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Game
+02:04:26.337 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/text/levels/Level1.txt
+02:04:26.385 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/textures/rock.png
+02:04:26.393 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.394 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.400 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.401 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.402 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.403 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.404 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.405 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.407 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.408 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.409 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.410 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.411 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.412 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.413 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.414 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.415 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.416 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.417 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.417 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.418 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.419 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.420 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.423 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.424 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.425 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.426 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.427 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.428 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.429 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.429 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.430 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/textures/grass.png
+02:04:26.432 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.433 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/textures/brick.png
+02:04:26.435 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.436 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.436 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.437 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.438 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.439 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.441 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.442 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.443 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.443 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/textures/enemy.png
+02:04:26.449 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.450 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.451 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.452 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.453 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.453 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.454 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.455 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.456 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.457 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.458 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.459 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.460 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.461 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.462 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.463 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.464 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.465 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.466 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.467 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.468 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.469 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.470 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.471 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.472 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.473 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.474 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.474 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.475 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.476 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.477 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.477 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.478 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.479 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.480 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.481 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.481 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.482 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.483 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.483 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.484 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.485 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.486 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.487 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.487 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.488 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.489 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.490 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.490 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.491 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.492 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.493 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.494 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.495 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.495 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.496 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.497 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.497 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.498 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.499 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.500 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.501 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.501 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.502 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.503 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.503 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.504 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.505 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.506 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.507 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.507 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.508 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.509 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.510 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.510 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.511 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.511 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.512 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.513 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.513 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.514 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.515 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.516 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.516 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.517 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.518 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.518 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.519 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.520 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.521 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.521 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.522 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.522 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.523 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.523 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.523 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.524 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.524 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.524 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.525 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.525 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.526 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.526 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.526 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.527 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.527 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.528 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.528 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.529 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.530 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.530 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.531 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.531 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.532 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.532 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.533 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.533 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.534 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/enemy.png@40.0x40.0
+02:04:26.534 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.535 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.535 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.536 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.536 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.537 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.537 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.538 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.538 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.541 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.541 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.542 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.542 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.542 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.543 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.543 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.544 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.544 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.545 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.545 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/enemy.png@40.0x40.0
+02:04:26.546 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.546 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.547 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.547 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.548 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.548 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.549 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.549 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.550 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.550 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.551 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.551 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.552 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.552 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.553 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.553 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.554 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.554 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.554 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.555 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.555 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.556 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.556 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.557 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.557 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.558 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.558 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.559 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.559 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.559 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.560 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.560 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.561 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.561 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.561 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.562 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.562 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.563 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.563 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.563 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.563 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.564 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.564 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.564 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.565 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.565 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.565 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.566 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.566 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.567 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.567 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.567 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.568 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.568 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.569 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.569 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.569 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.570 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.570 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.571 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.571 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.571 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.571 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.572 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.572 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.572 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.573 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.573 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.573 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.573 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.574 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.574 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.574 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.574 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.575 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.575 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.575 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.576 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.576 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.576 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.576 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.576 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.577 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.577 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.577 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.578 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.578 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.578 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.579 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.579 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.579 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.580 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.580 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.580 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.580 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.580 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.581 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.581 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.581 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.581 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.582 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.582 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.582 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.583 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.583 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.583 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.584 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.584 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.585 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.585 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.586 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.586 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.586 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.587 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.587 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.588 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.588 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.589 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.590 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.590 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.590 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.591 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.591 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.592 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.593 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.593 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.594 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.594 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.595 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.595 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.596 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.596 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.596 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.597 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.597 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.598 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.598 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.598 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.599 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.599 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.599 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.600 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.600 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.600 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.600 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.600 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.601 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.601 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.601 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.601 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.602 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.602 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.602 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.603 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.603 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.603 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.603 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.604 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.604 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.604 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.604 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/enemy.png@40.0x40.0
+02:04:26.605 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.605 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.605 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.605 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.605 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.606 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.606 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.606 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.607 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.607 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.608 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.608 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.608 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.608 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.609 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.609 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.610 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.610 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.610 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.610 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.611 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.611 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/brick.png@40.0x40.0
+02:04:26.612 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.612 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.612 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.613 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/enemy.png@40.0x40.0
+02:04:26.613 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/grass.png@40.0x40.0
+02:04:26.614 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.614 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.614 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.615 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.615 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.615 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.616 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.616 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.617 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.617 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.617 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.618 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.618 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.618 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.620 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.620 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.620 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.621 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.621 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.621 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.621 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.622 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.622 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.622 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.622 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.622 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.623 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.623 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.623 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.623 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.623 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.624 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/rock.png@40.0x40.0
+02:04:26.624 [FXGL Background Thread 1 ] DEBUG GameWorld            - Clearing removable entities
+02:04:26.624 [FXGL Background Thread 1 ] DEBUG GameWorld            - Setting level: com.almasb.fxgl.entity.Level@61771f7f
+02:04:26.625 [FXGL Background Thread 1 ] DEBUG GameScene            - Creating render group for layer: DEFAULT(100000)
+02:04:26.628 [FXGL Background Thread 1 ] DEBUG GameScene            - Creating render group for layer: TOP(2147483647)
+02:04:26.641 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/textures/grass.png
+02:04:26.644 [FXGL Background Thread 1 ] DEBUG GameScene            - Creating render group for layer: BACKGROUND(1000)
+02:04:26.647 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/textures/bomber_right.png
+02:04:26.652 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/textures/bomber_back.png
+02:04:26.655 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/textures/bomber_front.png
+02:04:26.657 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/bomber_right.png
+02:04:26.657 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/bomber_back.png
+02:04:26.657 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/bomber_front.png
+02:04:26.658 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Physics
+02:04:26.660 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing UI
+02:04:26.660 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initialization Complete
+02:04:26.660 [FXGL Background Thread 1 ] INFO  InitAppTask          - Game initialization took: 0.383 sec
+02:04:26.666 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+02:04:26.735 [JavaFX Application Thread] DEBUG AppStateMachine      - LoadingState -> PlayState
+02:04:31.893 [JavaFX Application Thread] DEBUG GameApplication      - Exiting game application
+02:04:31.893 [JavaFX Application Thread] DEBUG GameApplication      - Shutting down background threads
+02:04:31.894 [JavaFX Application Thread] DEBUG GameApplication      - Exiting FXGL
+02:04:31.894 [JavaFX Application Thread] DEBUG FXGL                 - Saving FXGL system data
+02:04:31.896 [JavaFX Application Thread] DEBUG DesktopFSService     - Writing to: system\fxgl.bundle
+02:04:31.901 [JavaFX Application Thread] DEBUG GameApplication      - Closing logger and exiting JavaFX

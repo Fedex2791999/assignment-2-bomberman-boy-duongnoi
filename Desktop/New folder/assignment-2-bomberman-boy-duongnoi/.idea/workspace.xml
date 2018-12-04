@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="kho">
+      <change afterPath="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/AStarMoveAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/AiMoving.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/BossMoveControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bomberman_fxgl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bomberman_fxgl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-Nov-2018-17.04.28.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-Nov-2018-17.05.10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-Nov-2018-17.06.28.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-Nov-2018-17.07.55.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-Nov-2018-17.08.26.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-Nov-2018-17.24.42.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-Nov-2018-17.28.34.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-Nov-2018-17.28.57.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-Nov-2018-17.30.54.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-Nov-2018-21.42.57.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/Bomberman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/Bomberman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/BombermanType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/BombermanType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/GameFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/GameFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/collision/PlayerBombPowerUpCollision.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/collision/PlayerExplodeCollision.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/Bomb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Bomber/Bomb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Bomber/Bomber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Bomber/Bomber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/items/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/items/ItemType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sounds/drop.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/text/levels/Level1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/text/levels/Level1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/textures/bomb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/textures/brick.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/brick.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/textures/player.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/player.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/fxgl.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/system/fxgl.bundle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assets/text/levels/Level1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/assets/text/levels/Level1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/bomb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/brick.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/assets/textures/brick.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assets/textures/player.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/assets/textures/player.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/Bomberman$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/Bomberman$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/Bomberman$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/Bomberman$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/Bomberman$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/Bomberman$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/Bomberman$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/Bomberman$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/Bomberman$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/Bomberman$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/Bomberman.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/Bomberman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/BombermanType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/BombermanType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/GameFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/GameFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/collision/PlayerBombPowerUpCollision.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/collision/PlayerExplodeCollision.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/entities/Bomb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/entities/character/Bomber/Bomber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/entities/character/Bomber/Bomber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/entities/character/Bomber/BomberType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/entities/character/Bomber/BomberType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/entities/items/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uet/vteam/bomberman/entities/items/ItemType.class" beforeDir="false" />
+    </list>
+    <ignored path="JavaFxApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/bomberman_fxgl$Bomberman.ic" NAME="Bomberman Coverage Results" MODIFIED="1542685861873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>uet.vteam.bomberman.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2105225530">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.1" value="11" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.opened" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="4" />
+          <entry key="java" value="16" />
+          <entry key="png" value="3" />
+          <entry key="txt" value="6" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="4" />
+          <entry key="Image" value="3" />
+          <entry key="JAVA" value="16" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="9245" />
+          <entry key="txt" value="8" />
+          <entry key="xml" value="54" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="9245" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="XML" value="54" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-972580036">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.32" value="2" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="class" value="4" />
+          <entry key="dummy" value="36" />
+          <entry key="java" value="5626" />
+          <entry key="txt" value="30" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CLASS" value="4" />
+          <entry key="JAVA" value="5626" />
+          <entry key="PLAIN_TEXT" value="66" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="50" />
+          <entry key="java" value="38" />
+          <entry key="png" value="4" />
+          <entry key="txt" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="50" />
+          <entry key="Image" value="4" />
+          <entry key="JAVA" value="38" />
+          <entry key="PLAIN_TEXT" value="6" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1444479072">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="dummy" value="17" />
+          <entry key="java" value="2497" />
+          <entry key="txt" value="55" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="2497" />
+          <entry key="PLAIN_TEXT" value="72" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="5" />
+          <entry key="java" value="48" />
+          <entry key="txt" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="5" />
+          <entry key="JAVA" value="48" />
+          <entry key="PLAIN_TEXT" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/Bomberman.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#initInput#0;class#Bomberman#0" />
+                <element signature="e#6881#6882#0" expanded="true" />
+                <element signature="e#6912#6913#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Bomber/Bomber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="230" column="5" lean-forward="true" selection-start-line="230" selection-start-column="5" selection-end-line="230" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#increaseBomb#0;class#Bomber#0" />
+                <element signature="method#increaseSpeed#0;class#Bomber#0" />
+                <element signature="method#onUpdate#0;class#Bomber#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/GameFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="102" column="22" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/AiMoving.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="214" column="4" selection-start-line="214" selection-start-column="4" selection-end-line="214" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#move#0;class#AiMoving#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Bomber/BomberType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/AStarMoveAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/BombermanType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/text/levels/Level1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Bomber/Bomb.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="53" column="47" lean-forward="true" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#increasePowerUp#0;class#Bomb#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sys</find>
+      <find>max</find>
+      <find>private double speed = 0;</find>
+      <find>speed</find>
+      <find>scale</find>
+      <find>canMove</find>
+      <find>playState</find>
+      <find>initPhysics</find>
+      <find>initUI</find>
+    </findStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/Bomberman.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/bomber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Bomber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/items/ItemType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/items/Item.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/collision/PlayerExplodeCollision.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/collision/PlayerBombPowerUpCollision.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/Bomb.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/Items/ItemTypes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/collision/PowerUpCollision.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Bomber/PlaceBomb.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/collision/IncreaseBombCollision.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/BombermanType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/EnemyType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Bomber/BomberType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Bomber/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/EnemyRandom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/MoveDirection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/PaletteChangingControl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/AiImageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/AStarMoveControl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/AiType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/AIMoveDirection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/BossMoveAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/AStarMoveAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/BossMoveControl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/GameFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/AiMoving.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Bomber/Bomb.java" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Bomber/Bomber.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/text/levels/Level1.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/Bomberman.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1386" />
+    <option name="height" value="789" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="PackagesPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="assignment-2-bomberman-boy-duongnoi" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bomberman_fxgl" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="assignment-2-bomberman-boy-duongnoi" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bomberman_fxgl" type="616d4139:PackageViewModuleNode" />
+              <item name="assets" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="assignment-2-bomberman-boy-duongnoi" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bomberman_fxgl" type="616d4139:PackageViewModuleNode" />
+              <item name="assets" type="1f31426a:PackageElementNode" />
+              <item name="text" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="assignment-2-bomberman-boy-duongnoi" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bomberman_fxgl" type="616d4139:PackageViewModuleNode" />
+              <item name="assets" type="1f31426a:PackageElementNode" />
+              <item name="text" type="1f31426a:PackageElementNode" />
+              <item name="levels" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="assignment-2-bomberman-boy-duongnoi" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bomberman_fxgl" type="616d4139:PackageViewModuleNode" />
+              <item name="uet" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="assignment-2-bomberman-boy-duongnoi" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bomberman_fxgl" type="616d4139:PackageViewModuleNode" />
+              <item name="uet" type="1f31426a:PackageElementNode" />
+              <item name="vteam" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="assignment-2-bomberman-boy-duongnoi" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bomberman_fxgl" type="616d4139:PackageViewModuleNode" />
+              <item name="uet" type="1f31426a:PackageElementNode" />
+              <item name="vteam" type="1f31426a:PackageElementNode" />
+              <item name="bomberman" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="assignment-2-bomberman-boy-duongnoi" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bomberman_fxgl" type="616d4139:PackageViewModuleNode" />
+              <item name="uet" type="1f31426a:PackageElementNode" />
+              <item name="vteam" type="1f31426a:PackageElementNode" />
+              <item name="bomberman" type="1f31426a:PackageElementNode" />
+              <item name="entities" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="assignment-2-bomberman-boy-duongnoi" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bomberman_fxgl" type="616d4139:PackageViewModuleNode" />
+              <item name="uet" type="1f31426a:PackageElementNode" />
+              <item name="vteam" type="1f31426a:PackageElementNode" />
+              <item name="bomberman" type="1f31426a:PackageElementNode" />
+              <item name="entities" type="1f31426a:PackageElementNode" />
+              <item name="character" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="assignment-2-bomberman-boy-duongnoi" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bomberman_fxgl" type="616d4139:PackageViewModuleNode" />
+              <item name="uet" type="1f31426a:PackageElementNode" />
+              <item name="vteam" type="1f31426a:PackageElementNode" />
+              <item name="bomberman" type="1f31426a:PackageElementNode" />
+              <item name="entities" type="1f31426a:PackageElementNode" />
+              <item name="character" type="1f31426a:PackageElementNode" />
+              <item name="Bomber" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="assignment-2-bomberman-boy-duongnoi" type="58d84e3e:PackageViewProjectNode" />
+              <item name="bomberman_fxgl" type="616d4139:PackageViewModuleNode" />
+              <item name="uet" type="1f31426a:PackageElementNode" />
+              <item name="vteam" type="1f31426a:PackageElementNode" />
+              <item name="bomberman" type="1f31426a:PackageElementNode" />
+              <item name="entities" type="1f31426a:PackageElementNode" />
+              <item name="character" type="1f31426a:PackageElementNode" />
+              <item name="Enemy" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="assignment-2-bomberman-v-team" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-2-bomberman-v-team" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543864050626" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FXGLGames/Mario" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="uet.vteam.bomberman.entities.character.Bomber" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Bomberman">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bomberman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uet.vteam.bomberman.Bomberman" />
+      <module name="bomberman_fxgl" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uet.vteam.bomberman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="bomberman_fxgl" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uet.vteam.bomberman.entities.character.Bomber.test" />
+      <module name="bomberman_fxgl" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uet.vteam.bomberman.entities.character.Bomber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Bomberman" />
+      <item itemvalue="Application.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Bomberman" />
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1541900964475" duration="8538000" />
+      <workItem from="1541943023678" duration="16450000" />
+      <workItem from="1542012981076" duration="5101000" />
+      <workItem from="1542034842865" duration="706000" />
+      <workItem from="1542040697818" duration="5379000" />
+      <workItem from="1542068063898" duration="6680000" />
+      <workItem from="1542098158240" duration="6989000" />
+      <workItem from="1542118656830" duration="7658000" />
+      <workItem from="1542201938897" duration="13526000" />
+      <workItem from="1542274567019" duration="5711000" />
+      <workItem from="1542376807913" duration="6093000" />
+      <workItem from="1542419435237" duration="18278000" />
+      <workItem from="1542463564580" duration="10783000" />
+      <workItem from="1542504567881" duration="1821000" />
+      <workItem from="1542633656526" duration="14400000" />
+      <workItem from="1542680295837" duration="9449000" />
+      <workItem from="1542695935993" duration="6383000" />
+      <workItem from="1542728196365" duration="9181000" />
+      <workItem from="1543021355305" duration="12288000" />
+      <workItem from="1543054973492" duration="1736000" />
+      <workItem from="1543085438232" duration="7788000" />
+      <workItem from="1543126763124" duration="21539000" />
+      <workItem from="1543222616997" duration="3291000" />
+      <workItem from="1543249597622" duration="9263000" />
+      <workItem from="1543358321224" duration="745000" />
+      <workItem from="1543533181934" duration="5034000" />
+      <workItem from="1543547054496" duration="8158000" />
+      <workItem from="1543565150670" duration="13607000" />
+      <workItem from="1543591497632" duration="5507000" />
+      <workItem from="1543647606584" duration="11048000" />
+      <workItem from="1543675585323" duration="2360000" />
+      <workItem from="1543723431872" duration="19036000" />
+      <workItem from="1543849714561" duration="13076000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="288904000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.31902835" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.06478405" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32724252" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33222592" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.22093023" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="e" />
+        <watch expression="se" />
+        <watch expression="c" />
+        <watch expression="bombsPlaced" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>FXGL.getApp()
+                .getGameWorld()
+                .getEntitiesAt(new Point2D(xTopExplode, yTopExplode))
+                .stream()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>entity.getType()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/beans/value/ObservableDoubleValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3-SNAPSHOT/fxgl-base-0.5.3-SNAPSHOT.jar!/com/almasb/fxgl/entity/components/PositionComponent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/geometry/Point2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="134" column="19" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3-SNAPSHOT/fxgl-base-0.5.3-SNAPSHOT.jar!/com/almasb/fxgl/entity/Spawns.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3-SNAPSHOT/fxgl-base-0.5.3-SNAPSHOT.jar!/com/almasb/fxgl/physics/PhysicsComponent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="579" column="22" selection-start-line="579" selection-start-column="22" selection-end-line="579" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/animation/AnimationTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3-SNAPSHOT/fxgl-base-0.5.3-SNAPSHOT.jar!/com/almasb/fxgl/input/UserAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3-SNAPSHOT/fxgl-base-0.5.3-SNAPSHOT.jar!/com/almasb/fxgl/input/Input.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3-SNAPSHOT/fxgl-base-0.5.3-SNAPSHOT.jar!/com/almasb/fxgl/app/State.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3-SNAPSHOT/fxgl-base-0.5.3-SNAPSHOT.jar!/com/almasb/fxgl/time/TimerAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3-SNAPSHOT/fxgl-base-0.5.3-SNAPSHOT.jar!/com/almasb/fxgl/entity/GameWorld.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3-SNAPSHOT/fxgl-base-0.5.3-SNAPSHOT.jar!/com/almasb/fxgl/app/PlayState.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3-SNAPSHOT/fxgl-base-0.5.3-SNAPSHOT.jar!/com/almasb/fxgl/entity/components/CollidableComponent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3-SNAPSHOT/fxgl-base-0.5.3-SNAPSHOT.jar!/com/almasb/fxgl/physics/HitBox.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-269">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3-SNAPSHOT/fxgl-base-0.5.3-SNAPSHOT.jar!/com/almasb/fxgl/app/AppStateMachine.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/textures/powerup_bombs.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/textures/monster.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/textures/player.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3-SNAPSHOT/fxgl-base-0.5.3-SNAPSHOT.jar!/com/almasb/fxgl/physics/CollisionHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3-SNAPSHOT/fxgl-base-0.5.3-SNAPSHOT.jar!/com/almasb/fxgl/entity/component/Component.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Bomber/PlaceBomb.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3-SNAPSHOT/fxgl-base-0.5.3-SNAPSHOT.jar!/com/almasb/fxgl/entity/Entities.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/collision/IncreaseBombCollision.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/Items/ItemTypes.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3-SNAPSHOT/fxgl-base-0.5.3-SNAPSHOT.jar!/com/almasb/fxgl/entity/Entity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="192" column="41" selection-start-line="192" selection-start-column="41" selection-end-line="192" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Bomber/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/EnemyRandom.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/PaletteChangingControl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/MoveDirection.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/AiType.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/com/sun/javafx/scene/traversal/Direction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/AIDirection.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3-SNAPSHOT/fxgl-base-0.5.3-SNAPSHOT.jar!/com/almasb/fxgl/app/FXGL.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3-SNAPSHOT/fxgl-base-0.5.3-SNAPSHOT.jar!/com/almasb/fxgl/time/Timer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="94" selection-start-line="18" selection-start-column="94" selection-end-line="18" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/AStarMoveControl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/AiImageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/BossMoveControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/BombermanType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/GameFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="102" column="22" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3-SNAPSHOT/fxgl-base-0.5.3-SNAPSHOT.jar!/com/almasb/fxgl/app/GameApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="426" column="29" lean-forward="true" selection-start-line="426" selection-start-column="29" selection-end-line="426" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/AStarMoveAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/text/levels/Level1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Enemy/AiMoving.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="214" column="4" selection-start-line="214" selection-start-column="4" selection-end-line="214" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#move#0;class#AiMoving#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Bomber/Bomb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="53" column="47" lean-forward="true" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#increasePowerUp#0;class#Bomb#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Bomber/Bomber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="230" column="5" lean-forward="true" selection-start-line="230" selection-start-column="5" selection-end-line="230" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#increaseBomb#0;class#Bomber#0" />
+            <element signature="method#increaseSpeed#0;class#Bomber#0" />
+            <element signature="method#onUpdate#0;class#Bomber#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/entities/character/Bomber/BomberType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uet/vteam/bomberman/Bomberman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initInput#0;class#Bomberman#0" />
+            <element signature="e#6881#6882#0" expanded="true" />
+            <element signature="e#6912#6913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>JavaFXApp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>bomberman_fxgl</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
